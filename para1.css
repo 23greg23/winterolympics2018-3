@@ -1,0 +1,76 @@
+
+body {
+  overflow-x: hidden;
+}
+.photo-side {
+  width: 100vw;
+
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    /* margin-left: 50%; */
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    XXXmargin: 0px 0px 0px 50%;
+    background-position-x: center;
+    min-height: 1000px;
+
+}
+
+
+
+
+
+.p-s-1 {
+  background-image: url('images/slide1.jpg');
+ margin-top: 160px;
+}
+
+.p-s-2 {
+  background-image: url('images/slide2.jpg');
+}
+
+.p-s-3 {
+  background-image: url('images/slide3.jpg');
+}
+.p-s-4 {
+  background-image: url('images/slide4.jpg');
+}
+
+.p-s-5 {
+  background-image: url('images/slide5.jpg');
+}
+
+.p-s-6 {
+  background-image: url('images/slide6.jpg');
+}
+.p-s-7 {
+  background-image: url('images/slide7.jpg');
+}
+@media screen and (max-width: 1024px) {
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .photo-side {
+      min-height: 1300px;
+    }
+
+}
+@media screen and (max-width: 620px) {
+
+    .photo-side {
+      min-height: 200px;
+      XXXmargin: 100px 0 100px 50%;
+    }
+
+
+    @media screen and (max-width: 620px) {
+      .photo-side {
+        min-height: 350px;
+      }
+    }
+}

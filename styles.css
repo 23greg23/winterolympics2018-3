@@ -1,0 +1,355 @@
+
+body {
+margin: 0px;
+}
+.clear {
+clear: both;}
+.floatright {
+float:right;
+margin: 0px 70px 20px 20px;}
+.floatleft {
+float:left;
+margin: 0px 10px 10px 0px;}
+.borderwhite {
+border: #fff 1px solid;}
+/*CUSTOM SCROLLBAR*/
+::-webkit-scrollbar {
+      width: 15px;
+} /* this targets the default scrollbar (compulsory) */
+::-webkit-scrollbar-track {
+      background-color: #b46868;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+/*LISTS*/
+ul.olympics {
+padding:0;
+margin:0px 0px 20px 35px;
+}
+ul.olympics li {
+list-style-type:none;
+color: #fff;
+font-family: 'Monserrat', sans-serif;
+font-weight:600;
+font-size: 1.3em;
+padding: 5px 0px 5px 15px;
+background: url('images/redarrow.png') no-repeat left 16px;
+}
+ul.olympics li a{
+list-style-type:none;
+color: #fff;
+text-decoration: none;
+}
+ul.olympics li a:hover{
+list-style-type:none;
+color: #ffffcc;
+text-decoration: none;
+}
+/* SLIDES*/
+.parallax-window {
+min-height: 1300px;
+background: transparent;}
+div.parallax-window.faculty {
+min-height: 400px;
+background: transparent;}
+div.parallax-window.slide1 p {
+padding: 20px 60px 20px 60px;}
+
+.slidecopy1 {
+width: 60%;
+float:right;}
+
+.white {
+color: #fff;
+font-family: 'Monserrat', sans-serif;
+font-weight:600;
+font-size: 1.3em;
+padding: 0px 60px 40px 0px;
+margin: 0px 0px 0px 30px;
+}
+.black {
+color: #000;
+font-family: 'Monserrat', sans-serif;
+font-weight:600;
+font-size: 1.3em;
+padding: 0px 60px 40px 0px;
+margin: 0px 0px 0px 30px;
+}
+
+.introtext {
+margin-top: 50px;
+width: 45%;
+margin: 0px 0px 0px 10px;}
+
+.slidecopy1 {
+width: 60%;
+float:right;}
+
+.slidecopy2 {
+width: 60%;
+float:left;}
+
+.slidecopy3 {
+position:relative;
+top: 0px;
+left: 20px;}
+
+div.facultysection {
+width: 94%;
+text-align: center;
+padding: 20px 30px 20px 20px;
+clear: both;
+background-color:rgba(255,255,255,0.7);
+margin: 10px 10px 10px 30px;
+float: none;
+}
+div.facultysection img.floatleft {
+padding: 10px;}
+span.header {
+width: 50%;}
+	
+
+
+img.imgright {
+	float: right;
+	margin-right: 70px;}
+div.facultysection p.whitequote {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 0px 10px 10px;
+	margin-top: -10px;
+	font-size: 1.4em;
+	font-weight:400;
+	text-align:left;
+}
+
+div.facultysection span.header h2 {
+    color: #fff;
+    font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	text-align: left;
+padding: 13px 0px 0px 70px;
+margin: 0px 0px 0px 10px;
+background: url('images/quote.png" ') no-repeat left center;
+background-color:rgba(0,0,0,0.37);
+background-size: 60px;
+height: 60px;
+}
+
+p.byline {
+	text-align:left;
+	color: #333;
+	font-size:0.9em;
+	font-family: 'Monserrat', sans-serif;
+	margin: 0px 0px 10px 10px;}
+	p.bylinewhite {
+	text-align:left;
+	color: #fff;
+	font-size:0.9em;
+	font-family: 'Monserrat', sans-serif;}
+h2 {
+    color: #fff;
+    font-size: 1.4em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 4em;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	margin: 0px 0px 10px 0px;
+	padding: 20px;
+}
+h1.dark {
+    color: #fff;
+    font-size: 5em;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	margin: 0px;
+	padding: 20px 40px 20px 20px;
+
+	background-color:rgba(0,0,0,0.5)
+}
+
+.dark {
+	color: #000;}
+
+.slideright {
+	float: left;
+	margin-left: 30px;}
+span.slideright p {
+	width: 200px;
+		float: right;}
+		
+div#twocolleft {
+float: left;
+width: 20%;}
+div#twocolright {
+float: right;
+width: 80%;
+}
+ul.flint {
+padding:0;
+margin:0px 0px 20px 0px;
+}
+ul.flint li {
+list-style-type:none;
+color: #ffffcc;
+font-family: 'Monserrat', sans-serif;
+font-weight:400;
+font-size: .8em;
+padding: 5px 0px 5px 15px;
+background: url('images/redarrow.png') no-repeat left 12px;
+}	
+
+@media only screen and (max-width : 1024px) {
+h1, h1.dark {
+    color: #fff;
+    font-size: 3em;}
+	.white, .black {
+	font-size: 1em;}
+	.introtext {
+    margin-top: 10px;
+    width: 60%;
+}
+.floatright {
+    float: none;
+    margin: 0px;
+    width: 100%;}
+.white {
+	margin: 0px;}
+	div#twocolright {
+		width: 75%;
+		margin-left: 20px;}
+h2 {
+font-size: 1.2em;}
+
+}
+@media only screen and (max-width : 768px) {
+#hockey {
+}
+.slidecopy1, .slidecopy2, .slidecopy3 {
+width: 100%;
+float:left;
+text-align: left;
+padding: 10px 10px 10px 0px;
+margin: 0px;
+clear: both;}
+h1{
+font-size: 2em;
+padding: 0px 0px 0px 0px;}
+h1.dark {
+font-size: 2em;
+padding: 0px 0px 10px 20px;}
+.introtext {
+margin-top: 0px;
+width: 100%;}
+img.intro {
+width: 50%;
+margin-top: 300px;}
+#scrolldown img.intro {
+width: 100%;
+margin-top: 10px;}
+div#twocolleft {
+float: left;
+width: 100%;}
+div#twocolleft img {
+float: left;
+}
+div#twocolleft ul.flint {
+float: right;
+width: 55%;
+}
+div#twocolleft h2 {
+float: right;
+width: 55%;
+}
+div#twocolright {
+float: left;
+width: 100%;
+margin-left: 0px;
+}
+
+}
+@media only screen and (max-width : 425px) {
+h2 {
+font-size: 1em;}
+h1 {
+font-size: 2em;
+width: 100%;}
+
+img.intro {
+width: 100%;}
+.p-s-1 {
+margin-top: 120px;
+}
+.slidecopy1 p, .slidecopy2 p, .slidecopy3 p {
+font-size: 1em;}
+.photo-side {
+    min-height: 200px;
+    XXXmargin: 0px 0px 0px 50%;
+}
+.white, .black {
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.3em;
+}
+div.facultysection {
+    margin: 0px;
+	width: 100%;}
+ul.olympics {
+padding:0;
+margin:0px 0px 10px 0px;
+}
+div.facultysection img {
+    width: 100%;
+    height: 100%;
+}
+img.facultyHeadshot {
+    float: left;
+    padding: 0px;
+}
+img.intro {
+margin-top: 0px;}
+.photo-side {
+	padding: 10px;}
+	div#twocolleft {
+float: none;
+width: 100%;}
+div#twocolleft img {
+float: none;
+margin: 0 auto;
+}
+div#twocolleft ul.flint {
+float: none;
+width: 100%;
+}
+div#twocolleft h2 {
+float: none;
+width: 100%;
+}
+div#twocolright {
+float: none;
+width: 100%;
+}
+div.facultysection span.header h2 {
+font-size: 1.3em;
+padding: 5px 0px 0px 70px;}
+}
